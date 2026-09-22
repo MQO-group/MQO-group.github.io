@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { PageHeader } from "../components/page-header";
+import { LinkedText } from "../components/linked-text";
 import { researchAreas } from "../data/research";
 import { site } from "../data/site";
 
@@ -38,7 +39,9 @@ export default function ResearchPage() {
 
                 <div className="area__aside prose">
                   {area.body.map((paragraph) => (
-                    <p key={paragraph.slice(0, 40)}>{paragraph}</p>
+                    <p key={paragraph.slice(0, 40)}>
+                      <LinkedText text={paragraph} links={area.links} />
+                    </p>
                   ))}
                 </div>
               </article>
