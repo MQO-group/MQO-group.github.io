@@ -75,13 +75,6 @@ export const people: Person[] = [
     phone: "+358 44 336 0581",
   },
   {
-    name: "Arjan Boom",
-    image: "/people/arjan-profile-picture.jpeg",
-    role: "Research Assistant",
-    group: "researcher",
-    email: "arjan.boom@aalto.fi",
-  },
-  {
     name: "Jussi Sukanen-Vilkki",
     image: "/people/jussi-profile-picture.jpeg",
     role: "Research Assistant",
@@ -115,6 +108,13 @@ export const people: Person[] = [
   },
 
   // ----------------------------------------------------------------- alumni --
+  {
+    name: "Arjan Boom",
+    image: "/people/arjan-profile-picture.jpeg",
+    role: "Research Assistant",
+    group: "alumni",
+    email: "arjan.boom@aalto.fi",
+  },
   {
     name: "Leoni Wrathall",
     image: "/people/leoni-profile-picture.jpeg",
